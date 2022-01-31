@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+  .header{
+      background-color: #1f2937;
+      padding: 0 60px 50px;
+  }
+
+  .top {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  a, .hero .text{
+      font-size: 18px;
+      color: #e5e7eb;
+  }
+
+  .hero .image{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+      height: 150px;
+      background: #4d4e50;
+      color: #e5e7eb;
+  }
+
+  .links {
+      display: flex;
+      gap: 15px;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  h1, .logo {
+      color: #f9faf8
+  }
+
+  .information{
+      text-align: center;
+  }
+
+  .container {
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .img-container {
+      border-style: solid;
+      border-color: blue;
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+  }
+
+  .txt-container {
+      width: 100px;
+  }
+
+  .quote {
+      background: #e5e7eb;
+      font-size: 36px;
+      font-style: italic;
+      color: #1f2937;
+      padding: 60px;
+  }
+
+  .callaction {
+      display: flex;
+      align-items: center;
+      height:300px;
+      justify-content: center;
+  }
+
+  .box-container {
+      background: #3882f6;
+      height: 100px;
+      margin: 60px ;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      color: white;
+      flex: 1;
+  }
+
+  .footer {
+      font-size: 15px;
+      padding: 20px;
+      text-align: center;
+      background-color: #1f2937;
+      color: #e5e7eb;
+  }
+
+  button {
+      border-color: white;
+      padding: 4px 14px;
+      border-radius: 5px;
+      background-color: #3882f6;
+  }
