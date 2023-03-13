@@ -1,4 +1,1 @@
-# landing
-Landing Page
-
-This is a landing page project for personal use.
+# In process of refactoring to use as a personal landing page
